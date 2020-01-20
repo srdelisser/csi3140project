@@ -11,3 +11,7 @@
 |                           |                |                               |
 
 ## Project description :
+
+We will be creating a recipe website where an user can create an account. 
+They will be able to add their own recipes to their "cookbook" and picture
+They will also be able to save recipes from the site to their "cookbook"
