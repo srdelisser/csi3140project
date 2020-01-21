@@ -7,8 +7,6 @@
 | Axel El Bakhti            | 8890998        | aelba103@uottawa.ca           |
 | Simone Delisser           | 8753903        | sdeli009@uottawa.ca           |
 | Anushka Paliwal           | 8269429        | apali035@uottawa.ca           |
-|                           |                |                               |
-|                           |                |                               |
 
 ## Project description :
 
