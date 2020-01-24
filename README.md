@@ -13,3 +13,37 @@
 We will be creating a recipe website where an user can create an account. 
 They will be able to add their own recipes to their "cookbook" and pictures.
 They will also be able to save recipes from other users on the site to their "cookbook".
+
+## Tasks :
+I've brainstromed some basic pages that we can inculded in our webiste feel free to update and add to this
+I've started out the html files, and currently looking at furthering the home page and the recipe page atm
+for the CSS part i think that needs to be in a separate file not to sure how to do that rn, but if you guys understand please and to the readme and update!
+
+we can also make branches to work on different parts, but for now i dont think we need to 
+I hope you guys are okay with this so far! -Simone
+- Home Page
+    - generic welcome to website page with description
+    - login/create account button can go to new page
+    - 2/3 recipes?? -> they would end up being linked to there recipe pages
+- Recipe page
+    - image of food
+    - ingredients
+    - directions
+    - link back to home page
+    - link to "my account"
+    - "upvote" button As Axel suggested
+- Account Page
+    - new Recipe button
+    - view my recipes button
+    - back to home page
+    - show account detials i guess
+- Make/Sumbit Recipe Page
+    - textboxes to input ingredients/image/directions
+    - submit button
+    - cancel/back to home button
+    - after submitting a page/popup that has the option to "add another recipes" or "go to your recipes" button
+- Your Cookbook page
+    - a table/list with links to your reciepe
+    - back to home button
+
+
