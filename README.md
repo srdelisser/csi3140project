@@ -14,6 +14,14 @@ We will be creating a recipe website where an user can create an account.
 They will be able to add their own recipes to their "cookbook" and pictures.
 They will also be able to save recipes from other users on the site to their "cookbook".
 
+## Colour Scheme (suggestion):
+
+I think we could use these colours for the website based off of arriva denmark
+- 004d73 - a dark blue
+- 00334e - a navy blue
+- 007fbd - a royal blue
+- dbebfa - a sky blue (currently the background color for all the pages)
+
 ## Tasks :
 I've brainstromed some basic pages that we can inculded in our webiste feel free to update and add to this
 I've started out the html files, and currently looking at furthering the home page and the recipe page atm
