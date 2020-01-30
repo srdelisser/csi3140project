@@ -18,9 +18,11 @@ They will also be able to save recipes from other users on the site to their "co
 
 I think we could use these colours for the website based off of arriva denmark
 - 004d73 - a dark blue
-- 00334e - a navy blue
+- 00334e - a navy blue (currently using for buttons)
 - 007fbd - a royal blue
 - dbebfa - a sky blue (currently the background color for all the pages)
+Other colours that can be used
+- 848a8c - a grey
 
 ## Tasks :
 I've brainstromed some basic pages that we can inculded in our webiste feel free to update and add to this
