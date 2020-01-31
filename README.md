@@ -18,8 +18,8 @@ They will also be able to save recipes from other users on the site to their "co
 
 I think we could use these colours for the website based off of arriva denmark
 - 004d73 - a dark blue
-- 00334e - a navy blue (currently using for buttons)
-- 007fbd - a royal blue
+- 00334e - a navy blue 
+- 007fbd - a royal blue (currently using for buttons)
 - dbebfa - a sky blue (currently the background color for all the pages)
 Other colours that can be used
 - 848a8c - a grey
@@ -31,7 +31,7 @@ for the CSS part i think that needs to be in a separate file not to sure how to 
 
 we can also make branches to work on different parts, but for now i dont think we need to 
 I hope you guys are okay with this so far! -Simone
-- Home Page
+- Home Page (Simone's attempting rn)
     - generic welcome to website page with description
     - login/create account button can go to new page
     - 2/3 recipes?? -> they would end up being linked to there recipe pages
@@ -42,7 +42,7 @@ I hope you guys are okay with this so far! -Simone
     - link back to home page
     - link to "my account"
     - "upvote" button As Axel suggested
-- Account Page
+- Account Page (Simone's attempting rn)
     - new Recipe button
     - view my recipes button
     - back to home page
