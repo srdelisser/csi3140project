@@ -1,0 +1,30 @@
+body{
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;		
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    margin: 100px 25px 25px 500px; /* bottom = footer height */
+}
+.button {
+    background-color: #007fbd;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    border:0.5px solid #314179;
+    text-align: center;
+    cursor: pointer;
+    font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+    text-decoration:none;
+}
+.button:hover {
+    background-color: #00334e;
+}
+.navbar
+{
+    position: fixed;
+    
+}
