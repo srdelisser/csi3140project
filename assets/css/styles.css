@@ -5,7 +5,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    margin: 100px 25px 25px 500px; /* bottom = footer height */
+    margin: 100px 25px 25px 100px;
 }
 .button {
     background-color: #007fbd;
@@ -25,6 +25,38 @@ body{
 }
 .navbar
 {
+    background-color: #007fbd;
     position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: .5rem 1rem;
+    display: inline-block;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.header {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+h2 {
+    font-size: 2rem;
+    line-height: .01;
+    font-weight: 500;
     
 }
