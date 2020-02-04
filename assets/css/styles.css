@@ -54,10 +54,11 @@ body{
     text-decoration: none;
     background-color: transparent;
 }
-h2 {
+.header h2 {
     font-size: 2rem;
     line-height: .01;
     font-weight: 500;
+    margin: 0px 0px 0px 0px;
 }
 input[type=text],input[type=password]{
     width: 100%;
@@ -137,4 +138,7 @@ input[type=text]:focus, input[type=password]:focus {
     position: static;
     max-width:96%;
     max-height:96%;
+}
+.menu-pages .connect{
+    color: #68bd47e5;
 }
