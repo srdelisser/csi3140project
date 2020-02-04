@@ -58,6 +58,7 @@ h2 {
     font-size: 2rem;
     line-height: .01;
     font-weight: 500;
+<<<<<<< Updated upstream
     
 }
 input[type=text],input[type=password]{
@@ -96,4 +97,32 @@ input[type=text]:focus, input[type=password]:focus {
     font-size: 40px;
     font-weight: bold;
     color: #f1f1f1;
+}
+.menu{
+    font-family: Arial, sans-serif;
+    opacity: .75;
+    margin: 0px 0px 0px 0px;
+    float: right;
+    color: white;
+    font-size: 1.5rem;
+    white-space: nowrap;
+
+    margin-top: 0px;
+    max-width: 100%
+}
+.menu-pages{
+    display: inline-block;
+    text-align:center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.menu-pages > a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px 0px 20px;
+}
+
+.menu-pages > a > .active{
+    color: #cf4e68;
 }
