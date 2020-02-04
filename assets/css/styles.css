@@ -134,7 +134,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 .transparentbox img {
     margin: 2%;
-    position: relative;
+    position: static;
     max-width:96%;
     max-height:96%;
 }
