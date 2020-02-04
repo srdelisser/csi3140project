@@ -5,7 +5,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    margin: 100px 25px 25px 100px;
+    margin: 100px 100px 100px 100px;
 }
 .button {
     background-color: #007fbd;
@@ -124,13 +124,17 @@ input[type=text]:focus, input[type=password]:focus {
     color: #cc1e44e5;
 }
 .transparentbox {
-    margin: 30px;
-    background-color: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid black;
-    opacity: .6;
 }
 .transparentbox p {
-    margin: 5%;
+    margin: 2%;
     font-weight: bold;
     color: #ffffffff;
-  }
+}
+.transparentbox img {
+    margin: 2%;
+    position: relative;
+    max-width:96%;
+    max-height:96%;
+}
