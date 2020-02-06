@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Generic Recipe Page</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
 </head>
 <!--This page should list links to recipes-->
 <!--can create one or two recipes pages for show-->
@@ -16,6 +17,33 @@
 <!--TODO (Anushka): add different recipes-->
 
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="header" href="#">
+                <h2>
+                    <i class="ti-medall-alt"></i>
+                    CookBook
+                </h2>
+            </a>
+            <div class="menu">
+                <div class="menu-pages">
+                    <a class="active" href="index.html">
+                        <i class="ti-home"></i>
+                        Home</a>|
+                    <a href="recipe.html">
+                        <i class="ti-search"></i>
+                        Find a receipe</a>|
+                    <a class="connect" href="account.html">
+                        <i class="ti-lock"></i>
+                        Sign In
+                    </a>|
+                    <a href="signup.html">
+                        <i class="ti-pencil-alt"></i>
+                        Sign Up</a>|
+                </div>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <h1>Let's find you something delicious to cook!</h1>
         <div></div>
@@ -30,14 +58,44 @@
                 <div class="row">
                     <div class="column recipesList_ingredients">
                         <h3>Ingredients</h3>
-                        <ul>
+                        <ul class="column ">
                             <li>3/4 cup milk</li>
                             <li>1 cup all-purpose flour</li>
                             <li>1 egg</li>
                             <li>1/2 teaspoon salt</li>
+                            <li>2 tablespoons white vinegar</li>
+                            <li>2 tablespoons white sugar</li>
+                            <li>1 teaspoon baking powder</li>
+                            <li>1/2 teaspoon baking soda</li>
+
+                        </ul>
+                        <ul class="column">
+                            <li>cooking spray</li>
+                            <li>2 tablespoons butter, melted</li>
+                            <li>1/2 teaspoon baking soda</li>
+                            <li>cooking spray</li>
+                            <li>2 tablespoons butter, melted</li>
                         </ul>
                     </div>
-                    <div class="column recipesList_directions">
+                    <div class="column recipesList_time">
+                        <i class="recipeList_timer ti-timer"></i>
+                        <hr class="recipeList_format">
+                        <div>
+                            <p>Prep</p>
+                            <p>10 m</p>
+                        </div>
+                        <hr class="recipeList_format">
+                        <div>
+                            <p>Cook</p>
+                            <p>10 m</p>
+                        </div>
+                        <hr class="recipeList_format">
+                        <div>
+                            <p>Ready in</p>
+                            <p>25 m</p>
+                        </div>
+                    </div>
+                    <!-- <div class="column recipesList_directions">
                         <h3>Directions</h3>
                         <ol>
                             <li>Combine milk with vinegar in a medium bowl and set aside for 5 minutes to "sour".</li>
@@ -48,7 +106,7 @@
                                 batter onto the skillet, and cook until bubbles appear on the surface. Flip with a
                                 spatula, and cook until browned on the other side.</li>
                         </ol>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -64,14 +122,44 @@
                 <div class="row">
                     <div class="column recipesList_ingredients">
                         <h3>Ingredients</h3>
-                        <ul>
+                        <ul class="column ">
                             <li>3/4 cup milk</li>
                             <li>1 cup all-purpose flour</li>
                             <li>1 egg</li>
                             <li>1/2 teaspoon salt</li>
+                            <li>2 tablespoons white vinegar</li>
+                            <li>2 tablespoons white sugar</li>
+                            <li>1 teaspoon baking powder</li>
+                            <li>1/2 teaspoon baking soda</li>
+
+                        </ul>
+                        <ul class="column">
+                            <li>cooking spray</li>
+                            <li>2 tablespoons butter, melted</li>
+                            <li>1/2 teaspoon baking soda</li>
+                            <li>cooking spray</li>
+                            <li>2 tablespoons butter, melted</li>
                         </ul>
                     </div>
-                    <div class="column recipesList_directions">
+                    <div class="column recipesList_time">
+                        <i class="recipeList_timer ti-timer"></i>
+                        <hr class="recipeList_format">
+                        <div>
+                            <p>Prep</p>
+                            <p>10 m</p>
+                        </div>
+                        <hr class="recipeList_format">
+                        <div>
+                            <p>Cook</p>
+                            <p>10 m</p>
+                        </div>
+                        <hr class="recipeList_format">
+                        <div>
+                            <p>Ready in</p>
+                            <p>25 m</p>
+                        </div>
+                    </div>
+                    <!-- <div class="column recipesList_directions">
                         <h3>Directions</h3>
                         <ol>
                             <li>Combine milk with vinegar in a medium bowl and set aside for 5 minutes to "sour".</li>
@@ -82,41 +170,7 @@
                                 batter onto the skillet, and cook until bubbles appear on the surface. Flip with a
                                 spatula, and cook until browned on the other side.</li>
                         </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="transparentbox recipesList">
-            <div class="row">
-                <div>
-                    <div class="column recipeList_img"><img src="assets/img/fluffyPancakes.jpg"></div>
-                    <div class="column recipeList_title">
-                        <h2>Fluffy Pancakes</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column recipesList_ingredients">
-                        <h3>Ingredients</h3>
-                        <ul>
-                            <li>3/4 cup milk</li>
-                            <li>1 cup all-purpose flour</li>
-                            <li>1 egg</li>
-                            <li>1/2 teaspoon salt</li>
-                        </ul>
-                    </div>
-                    <div class="column recipesList_directions">
-                        <h3>Directions</h3>
-                        <ol>
-                            <li>Combine milk with vinegar in a medium bowl and set aside for 5 minutes to "sour".</li>
-                            <li>Combine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl. Whisk
-                                egg and butter into "soured" milk. Pour the flour mixture into the wet ingredients and
-                                whisk until lumps are gone.</li>
-                            <li>Heat a large skillet over medium heat, and coat with cooking spray. Pour 1/4 cupfuls of
-                                batter onto the skillet, and cook until bubbles appear on the surface. Flip with a
-                                spatula, and cook until browned on the other side.</li>
-                        </ol>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
