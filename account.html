@@ -8,7 +8,60 @@
     <body>
         <!--going to create two popup boxes for a create an account-->
         <!--and a sign in-->
-        
+        <nav class = "navbar">
+            <div class="container">
+                <a class="header" href="#">
+                    <h2>
+                        <i class="ti-medall-alt"></i>
+                        CookBook
+                    </h2>
+                </a>
+                <div class="menu">
+                    <div class="menu-pages">
+                        <a href="index.html">
+                            <i class="ti-home"></i>
+                            Home</a>|
+                        <a href="recipe.html">
+                            <i class="ti-search"></i>
+                            Find a receipe</a>|
+                        <a class= "connect" href="account.html">
+                            <i class="ti-lock"></i>
+                            Sign In
+                        </a>|
+                        <a class="active" href="signup.html">
+                            <i class="ti-pencil-alt"></i>
+                            Sign Up</a>|
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="transparentbox">
+                <h2>
+                    <i class="ti-pencil-alt"></i>
+                </h2>
+                <h2>Your account details</h2>
+                    <form class="formtext"> 
+                        First name:<br>
+                        <input type="text" name="firstname" placeholder="Jane"><br>
+                        Last name:<br>
+                        <input type ="text" name="lastname" placeholder="Doe"><br>
+                        Email:<br>
+                        <input type ="text" name="email" placeholder="jane.doe@gmail.com"><br>
+                        Gender: <br>
+                        <select name="Gender">
+                            <option value="male">Male</option>
+                            <option value="female" selected>Female</option>
+                            <option value="nonbinary">Nonbinary</option>                
+                            <option value="Other">Other</option>
+                            <option value="pnts">Perfer Not To Say</option>
+                        </select><br><br>
+                        <input type="button" class="button" value="Save changes"><br><br>
+                    </form>
+            </div>
+        </div>
+        <br>
         <a href="homepage.html" class="button">Back to Homepage</a>
     </body>
 </html>
