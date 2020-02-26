@@ -53,4 +53,33 @@ I hope you guys are okay with this so far! -Simone
     - cancel/back to home button
     - after submitting a page/popup that has the option to "add another recipes" or "go to your recipes" button
 
+## Installation Instructions
 
+```
+npm install -g @vue/cli
+```
+
+```
+cd cookbook
+npm install
+npm run dev
+```
+
+# cookbook
+
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
