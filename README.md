@@ -34,7 +34,7 @@ I hope you guys are okay with this so far! -Simone
 - Home Page (Simone's attempting rn)
     - generic welcome to website page with description
     - login/create account button can go to new page
-    - 2/3 recipes?? -> they would end up being linked to there recipe pages
+    - A slider with 3 random recipes (will be completely in d3 in the front-end part)
 - Recipe page
     - image of food
     - ingredients
@@ -52,8 +52,34 @@ I hope you guys are okay with this so far! -Simone
     - submit button
     - cancel/back to home button
     - after submitting a page/popup that has the option to "add another recipes" or "go to your recipes" button
-- Your Cookbook page
-    - a table/list with links to your reciepe
-    - back to home button
 
+## Installation Instructions
 
+```
+npm install -g @vue/cli
+```
+
+```
+cd cookbook
+npm install
+npm run dev
+```
+
+# cookbook
+
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
