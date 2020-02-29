@@ -1,4 +1,6 @@
-# Project Name
+# CookBook
+
+> A Vue.js project
 
 ## Team members :
 
@@ -58,16 +60,6 @@ I hope you guys are okay with this so far! -Simone
 ```
 npm install -g @vue/cli
 ```
-
-```
-cd cookbook
-npm install
-npm run dev
-```
-
-# cookbook
-
-> A Vue.js project
 
 ## Build Setup
 
