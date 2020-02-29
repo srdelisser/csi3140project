@@ -1,4 +1,4 @@
-# cookbook
+# CookBook
 
 > A Vue.js project
 
