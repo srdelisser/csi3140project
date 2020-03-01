@@ -118,21 +118,20 @@ methods: {
             timestamp: new Date()
           }
         );
-        recipes = [],
-        newtitle = '',
-        newcookTime = '',
-        newreadyTime = '',
-        newprepTime = '',
-        newingredient1 = '',
-        newingredient2 = '',
-        newingredient3 =  '',
-        newingredient4 =  '',
-        newingredient5 =  '',
-        newingredient6 = '',
-        newingredient7 = '',
-        newingredient8 = '',
-        newingredient9 = '',
-        newingredient10 =  ''
+        this.newtitle = '',
+        this.newcookTime = '',
+        this.newreadyTime = '',
+        this.newprepTime = '',
+        this.newingredient1 = '',
+        this.newingredient2 = '',
+        this.newingredient3 =  '',
+        this.newingredient4 =  '',
+        this.newingredient5 =  '',
+        this.newingredient6 = '',
+        this.newingredient7 = '',
+        this.newingredient8 = '',
+        this.newingredient9 = '',
+        this.newingredient10 =  ''
         
       },
     }
