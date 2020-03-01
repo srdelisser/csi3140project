@@ -1,6 +1,6 @@
 # CookBook
 
-> A Vue.js project
+> A Vue.js project making use of Firebase's Firestore DB, and the firestorePlugin from Vuefire
 
 ## Team members :
 
@@ -57,8 +57,19 @@ I hope you guys are okay with this so far! -Simone
 
 ## Installation Instructions
 
-```
+``` bash
+# initial installation of vue
 npm install -g @vue/cli
+```
+
+``` bash
+# initial installation of vue router
+npm install vue-router --save
+```
+
+``` bash
+# initial installation of vuefire
+npm install firebase vuefire
 ```
 
 ## Build Setup
@@ -75,3 +86,7 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+### Deliverable 3 updates
+
+For this deliverable we have integrated vue.js with firebase to develop the app. So far, we have successfully connected these components of our tech stack. We are able to read and write to our database set up through firebase. We are slowly working towards changing the UI to make it more efficient to use with vue. We will also be adding more features by the next deliverable. 
