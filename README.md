@@ -1,6 +1,6 @@
 # CookBook
 
-> A Vue.js project
+> A Vue.js project making use of Firebase's Firestore DB, and the firestorePlugin from Vuefire
 
 ## Team members :
 
