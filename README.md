@@ -58,7 +58,18 @@ I hope you guys are okay with this so far! -Simone
 ## Installation Instructions
 
 ```
+# initial installation of vue
 npm install -g @vue/cli
+```
+
+```
+# initial installation of vue router
+npm install vue-router --save
+```
+
+```
+# initial installation of vuefire
+npm install firebase vuefire
 ```
 
 ## Build Setup
