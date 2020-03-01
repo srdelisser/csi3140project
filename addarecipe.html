@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ name }}</title>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <title>cookbook</title>
+        <link rel="stylesheet" href="src/assets/css/styles.css">
+        <link rel="stylesheet" href="src/assets/css/themify-icons.css">
+    </head>
   <body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="header" href="#">
+                <h2>
+                    <i class="ti-medall-alt"></i>
+                    CookBook
+                </h2>
+            </a>
+            <div class="menu">
+                <div class="menu-pages">
+                    <a class="active" href="index.html">
+                        <i class="ti-home"></i>
+                        Home</a>|
+                    <a href="recipe.html">
+                        <i class="ti-search"></i>
+                        Find a receipe</a>|
+                    <a class="connect" href="signin.html">
+                        <i class="ti-lock"></i>
+                        Sign In
+                    </a>|
+                    <a href="signup.html">
+                        <i class="ti-pencil-alt"></i>
+                        Sign Up</a>|
+                </div>
+            </div>
+        </div>
+    </nav>
     <div id="app"></div>
-    <script src="/dist/build.js"></script>
+    <div class="container">
+        <script src="/dist/build.js"></script>
+    </div>
   </body>
 </html>
