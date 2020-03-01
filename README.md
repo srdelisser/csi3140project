@@ -57,17 +57,17 @@ I hope you guys are okay with this so far! -Simone
 
 ## Installation Instructions
 
-```
+``` bash
 # initial installation of vue
 npm install -g @vue/cli
 ```
 
-```
+``` bash
 # initial installation of vue router
 npm install vue-router --save
 ```
 
-```
+``` bash
 # initial installation of vuefire
 npm install firebase vuefire
 ```
