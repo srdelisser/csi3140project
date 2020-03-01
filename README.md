@@ -90,6 +90,3 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 ### Deliverable 3 updates
 
 For this deliverable we have integrated vue.js with firebase to develop the app. So far, we have successfully connected these components of our tech stack. We are able to read and write to our database set up through firebase. We are slowly working towards changing the UI to make it more efficient to use with vue. We will also be adding more features by the next deliverable. 
-
-
- 
