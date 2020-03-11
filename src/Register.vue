@@ -63,6 +63,7 @@
           <button type="button" class="button" @click="addUser">Submit</button>
           <br />
           <br />
+          <div class="message" v-if="submitted"> You've been signed up succesfully </div>
         </form>
       </div>
     </div>
