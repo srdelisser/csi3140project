@@ -1,4 +1,4 @@
-import Register from '@src/Resgister';
+import Register from '@src/Register';
 import Vue from 'vue';
 
 describe('Register.vue', () => {
