@@ -1,7 +1,8 @@
-import { shallowMount, mount } from '@vue/test-utils';
+import { createLocalVue, shallowMount, mount } from '@vue/test-utils';
 import Register from './Register';
 import { db } from "./firebase";
 import { firestore } from 'firebase';
+import VueFirestore from 'vue-firestore';
 
 describe('Methods', () => {
     it('Register Test', () => {
@@ -12,7 +13,8 @@ describe('Methods', () => {
             'password': 'test12345/',
             'gender': 'male'
         };
-        const wrapper = shallowMount(Register);
+        const localVue = createLocalVue();
+        const wrapper = shallowMount(Register, {localVue});
         wrapper.vm.firstname = testUser.firstname;
         wrapper.vm.lastname = testUser.lastname;
         wrapper.vm.email = testUser.email;
