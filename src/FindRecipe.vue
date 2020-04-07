@@ -35,7 +35,9 @@
         <h2>
           <i class="ti-search"></i>
         </h2>
-        <h2>Sign Up</h2>
+        <h2>
+          Find A Recipe
+        </h2>
         <form class="formtext">
           Recipe Name:
           <br />
@@ -47,7 +49,17 @@
           <br />
           <input type="text" name="cooktime" v-model="cooktime" />
           <br />
-          <button type="button" class="button" @click="addUser"><i class="ti-search"></i>  Search</button>
+          <br />Mandatory Ingrédients :
+          <br />
+          <input type="text" name="mingredients" v-model="mingredients" />
+          <br />
+          <br />Forbidden Ingredients :
+          <br />
+          <input type="text" name="fingredients" v-model="fingredients" />
+          <br />
+          <br />
+          <br />
+          <center><button type="button" class="button" @click="search"><i class="ti-search"></i>  Search</button></center>
           <br />
           <br />
         </form>
