@@ -7,8 +7,8 @@
 | **Member Name**           | **Student ID** | **Email(s)**                  |
 | :------------------------ | :------------- | :-----------------------------|
 | Axel El Bakhti            | 8890998        | aelba103@uottawa.ca           |
-| Simone Delisser           | 8753903        | sdeli009@uottawa.ca           |
 | Anushka Paliwal           | 8269429        | apali035@uottawa.ca           |
+| Simone Delisser           | 8753903        | sdeli009@uottawa.ca           |
 
 ## Project description :
 
@@ -16,7 +16,7 @@ We will be creating a recipe website where an user can create an account.
 They will be able to add their own recipes to their "cookbook" and pictures.
 They will also be able to save recipes from other users on the site to their "cookbook".
 
-## Colour Scheme (suggestion):
+## Colour Scheme :
 
 I think we could use these colours for the website based off of arriva denmark
 - 004d73 - a dark blue
@@ -33,7 +33,7 @@ for the CSS part i think that needs to be in a separate file not to sure how to 
 
 we can also make branches to work on different parts, but for now i dont think we need to 
 I hope you guys are okay with this so far! -Simone
-- Home Page (Simone's attempting rn)
+- Home Page 
     - generic welcome to website page with description
     - login/create account button can go to new page
     - A slider with 3 random recipes (will be completely in d3 in the front-end part)
@@ -43,8 +43,7 @@ I hope you guys are okay with this so far! -Simone
     - directions
     - link back to home page
     - link to "my account"
-    - "upvote" button As Axel suggested
-- Account Page (Simone's attempting rn)
+- Account Page 
     - new Recipe button
     - view my recipes button
     - back to home page
@@ -92,4 +91,3 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 For this deliverable we have integrated vue.js with firebase to develop the app. So far, we have successfully connected these components of our tech stack. We are able to read and write to our database set up through firebase. We are slowly working towards changing the UI to make it more efficient to use with vue. We will also be adding more features by the next deliverable. 
 
 ### Deliverable 4 updates
-For this deliverable we have updated our home page to have a carousal view for featured ingredients. 
