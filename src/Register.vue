@@ -14,7 +14,7 @@
               <i class="ti-home"></i>
               Home
             </a>|
-            <a href="recipe.html">
+            <a  href="findrecipe.html">
               <i class="ti-search"></i>
               Find a receipe
             </a>|
