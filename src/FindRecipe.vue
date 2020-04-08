@@ -1,5 +1,5 @@
 <template>
-  <div id="register">
+  <div id="findrecipe">
     <nav class="navbar">
       <div class="container">
         <a class="header" href="#">

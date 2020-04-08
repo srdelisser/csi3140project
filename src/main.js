@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import App from './App';
 import Register from './Register';
-import SignIn from './SignIn';
 import FindRecipe from './FindRecipe';
+import SignIn from './SignIn';
 import VueFirestore from 'vue-firestore';
 import Vuex from "vuex";
 
@@ -10,18 +10,6 @@ import Vuex from "vuex";
 Vue.config.productionTip = false;
 
 Vue.use(VueFirestore);
-
-export default new Vuex.Store({
-  state: {
-    user: {
-      email: '',
-      firstName: ''
-    }
-  },
-  getters: {},
-  mutations: {},
-  actions: {}
- });
 
 new Vue({
   el: '#app',
@@ -43,13 +31,19 @@ new Vue({
 })
 
 new Vue({
-  el: '#account',
-  template: '<Account/>',
-  components: { Account },
-})
-
-new Vue({
   el: '#signin',
   template: '<SignIn/>',
   components: { SignIn },
 })
+
+export default new Vuex.Store({
+  state: {
+    user: {
+      email: '',
+      firstName: ''
+    }
+  },
+  getters: {},
+  mutations: {},
+  actions: {}
+ });

@@ -1,5 +1,5 @@
 <template>
-  <div id="register">
+  <div id="signin">
     <nav class="navbar">
       <div class="container">
         <a class="header" href="#">
@@ -52,34 +52,36 @@
   </div>
 </template>
 
-<script>
-import { db } from "./firebase";
+      <script>
+      import { db } from "./firebase";
 
-export default {
-  name: "register",
-  data() {
-    return {
-      users: [],
-      email: '',
-      password: '',
-    };
-  },
-  firestore() {
-    return {
-      users: db.collection("users")
-    };
-  },
-  methods: {
-    signUser: function() {
-      for (user of users) {
-          if ((user.email == this.email) && (user.passeword == this.passeword)) {
-              this.$store.state.user.email = this.email
-              this.$store.state.user.firstName = user.firstName
+      export default {
+        name: "signin",
+        data() {
+          return {
+            users: [],
+            email: '',
+            password: '',
+          };
+        },
+        firestore() {
+          return {
+            users: db.collection("users")
+          };
+        },
+        methods: {
+          signUser: function() {
+            for (user of users) {
+                if ((user.email == this.email) && (user.password == this.password)) {
+                    this.$store.state.user.email = this.email;
+                    this.$store.state.user.firstName = user.firstName;
+                    this.email = '';
+                    this.password = '';
+                }
+            }
+            this.email = '';
+            this.password = '';
           }
-      }
-      this.email = '';
-      this.password = '';
-    }
-  }
-};
-</script>
+        }
+      };
+      </script>
