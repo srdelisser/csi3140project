@@ -96,7 +96,7 @@ For this deliverable we tried to cleanup our code and tried to implement testing
 
 ![Find a Recipe](searchresult.png)
 
-#### Add a recipe  page
+#### Adding a recipe  page
 
 ![Find a Recipe](addarecipe.png)
 
