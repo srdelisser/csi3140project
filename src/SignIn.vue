@@ -42,7 +42,7 @@
             <input type="text" name="email" v-model="email" />
             Password:
             <br />
-            <input type ="text" name="password"><br>
+            <input type ="text" name="password" v-model="password"><br>
             <button type="button" class="button" @click="signUser">Sign In</button>
             <br />
             <br />
@@ -71,10 +71,10 @@
         },
         methods: {
           signUser: function() {
-            for (user of users) {
-                if ((user.email == this.email) && (user.password == this.password)) {
+            for (user of users.docs) {
+                if ((user['email'] == this.email) && (user['password'] == this.password)) {
                     this.$store.state.user.email = this.email;
-                    this.$store.state.user.firstName = user.firstName;
+                    this.$store.state.user.firstName = user['firstName'];
                     this.email = '';
                     this.password = '';
                 }
