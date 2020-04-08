@@ -59,7 +59,7 @@
           <br />
           <br />
           <br />
-          <center><button type="button" class="button" @click="search"><i class="ti-search"></i>  Search</button></center>
+          <center><a href="recipe.html" class="button"><i class="ti-search"></i>  Search</a></center>
           <br />
           <br />
         </form>
