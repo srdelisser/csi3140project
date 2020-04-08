@@ -27,8 +27,6 @@ Other colours that can be used
 - 848a8c - a grey
 
 ## Features and views :
-- Register / Sign In
-    - 
 - Home Page 
     - generic welcome to website page with description
     - login/create account button can go to new page
