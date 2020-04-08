@@ -1,14 +1,27 @@
 import Vue from 'vue';
 import App from './App';
 import Register from './Register';
+import SignIn from './SignIn';
 import FindRecipe from './FindRecipe';
 import VueFirestore from 'vue-firestore';
-import {Tabs, Tab} from 'vue-tabs-component';
+import Vuex from "vuex";
 
 // turns off the 'You are running Vue in development mode.' msg
 Vue.config.productionTip = false;
 
 Vue.use(VueFirestore);
+
+export default new Vuex.Store({
+  state: {
+    user: {
+      email: '',
+      firstName: ''
+    }
+  },
+  getters: {},
+  mutations: {},
+  actions: {}
+ });
 
 new Vue({
   el: '#app',
@@ -23,13 +36,20 @@ new Vue({
   components: { Register },
 })
 
-<<<<<<< HEAD
-Vue.component('tabs', Tabs);
-Vue.component('tab', Tab);
-=======
 new Vue({
   el: '#findrecipe',
   template: '<FindRecipe/>',
   components: { FindRecipe },
 })
->>>>>>> master
+
+new Vue({
+  el: '#account',
+  template: '<Account/>',
+  components: { Account },
+})
+
+new Vue({
+  el: '#signin',
+  template: '<SignIn/>',
+  components: { SignIn },
+})
