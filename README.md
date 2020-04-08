@@ -26,13 +26,9 @@ I think we could use these colours for the website based off of arriva denmark
 Other colours that can be used
 - 848a8c - a grey
 
-## Tasks :
-I've brainstromed some basic pages that we can inculded in our webiste feel free to update and add to this
-I've started out the html files, and currently looking at furthering the home page and the recipe page atm
-for the CSS part i think that needs to be in a separate file not to sure how to do that rn, but if you guys understand please and to the readme and update!
-
-we can also make branches to work on different parts, but for now i dont think we need to 
-I hope you guys are okay with this so far! -Simone
+## Features and views :
+- Register / Sign In
+    - 
 - Home Page 
     - generic welcome to website page with description
     - login/create account button can go to new page
@@ -91,3 +87,5 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 For this deliverable we have integrated vue.js with firebase to develop the app. So far, we have successfully connected these components of our tech stack. We are able to read and write to our database set up through firebase. We are slowly working towards changing the UI to make it more efficient to use with vue. We will also be adding more features by the next deliverable. 
 
 ### Deliverable 4 updates
+
+For this deliverable we tried to cleanup our code and tried to implement testing. We refined some of our existing features, for example, adding a new recipe, firebase authentication etc. We also worked on a search and filter feature. 
