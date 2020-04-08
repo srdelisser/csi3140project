@@ -104,7 +104,7 @@
         placeholder="Procedure"
         @keyup.enter="addarecipe"
       />
-      <button @click="addarecipe">Add a recipe</button>
+      <button @click="addarecipe" class="button">Add recipe</button>
     </div>
   </div>
 </template>
