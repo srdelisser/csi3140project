@@ -88,4 +88,22 @@ For this deliverable we have integrated vue.js with firebase to develop the app.
 
 For this deliverable we tried to cleanup our code and tried to implement testing. We refined some of our existing features, for example, adding a new recipe, firebase authentication etc. We also worked on a search and filter feature. 
 
+#### Find a recipe page searching for pancakes
+
 ![Find a Recipe](findarecipe.png)
+
+#### Search Results for pancake search
+
+![Find a Recipe](searchresult.png)
+
+#### Add a recipe  page
+
+![Find a Recipe](addarecipe.png)
+
+#### Sign up page
+
+![Find a Recipe](signup.png)
+
+#### Sign in page
+
+![Find a Recipe](signin.png)
