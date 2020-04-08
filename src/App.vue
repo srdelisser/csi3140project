@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div>
+      <h2 >Add your recipe!</h2>\
       <input type="textarea" v-model="newtitle" placeholder="Recipe Name" @keyup.enter="addarecipe" />
       <br />
       <br />
